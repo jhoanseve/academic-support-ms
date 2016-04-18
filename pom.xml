@@ -33,18 +33,10 @@
 	</dependencies>
 
 
-
-	<!-- <modules> -->
-	<!-- <module>product-microservice</module> -->
-	<!-- <module>search-microservice</module> -->
-	<!-- <module>eureka-server</module> -->
-	<!-- <module>review-microservice</module> -->
-	<!-- <module>product-composite-microservice</module> -->
-	<!-- <module>api-gateway</module> -->
-	<!-- </modules> -->
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
 	<repositories>
@@ -91,4 +83,10 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+	
+	
+
+	<modules>
+		<module>academic-eureka-server</module>
+	</modules>
 </project>

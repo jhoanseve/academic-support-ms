@@ -88,5 +88,6 @@
 
 	<modules>
 		<module>academic-eureka-server</module>
+		<module>academic-api-gateway</module>
 	</modules>
 </project>

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: academic-api-gateway
+    
+  cloud:
+    config:
+      #The URI of the remote server (default http://localhost:8888).
+      uri: http://localhost:9999
+      

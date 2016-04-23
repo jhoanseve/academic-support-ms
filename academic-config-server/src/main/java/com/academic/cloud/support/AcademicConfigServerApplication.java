@@ -6,12 +6,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 @EnableConfigServer
 public class AcademicConfigServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AcademicConfigServerApplication.class, args);
 	}
-
 }

@@ -29,4 +29,5 @@ spring:
     config:
       server:
         git:
-          uri: ${HOME}/develop/git-repositories/academic-cloud/academic-config-repo
+          uri: https://github.com/jhoanseve/academic-config-repo.git          
+          #uri: ${HOME}/develop/git-repositories/academic-cloud/academic-config-repo
